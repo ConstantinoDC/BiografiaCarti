@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+    --cor-primaria: white;
+    --cor-secundaria: black;
+    --fonte-principal: 'Poppins', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../assets/cartirosto1png.png);
+    background-color: var(--cor-primaria);
+    background-repeat: no-repeat;
+    background-position: 100% bottom;
+    background-size: 600px;
+
+}
+
+h1{
+    font-family: var(--fonte-principal);
+    color: var(--cor-secundaria);
+    font-size: 60pt;
+}
+
+h2{
+    font-family: var(--fonte-principal);
+    color: var(--cor-secundaria);
+    font-size: 40pt;
+}
+
+h3{
+    font-family: var(--fonte-principal);
+    color: var(--cor-primaria);
+    font-size: 30pt;
+}
+
+p{
+    font-family: var(--fonte-principal);
+    color: var(--cor-secundaria);
+    font-size: 20pt;
+}
+
+.cabecalho{
+    align-items: center;
+    background-color: var(--cor-secundaria);
+    width: min-content;
+    padding-top: 10pt;
+    padding-bottom: 5pt;
+}
+
+.conteudo__cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-evenly;
+}
+
+.conteudo__cabecalho__links{
+    text-decoration: none;
+}
+
+.conteudo__artista__introducao{
+    padding: 60pt;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-evenly;
+}
+
+.rodape{
+    text-decoration: none;
+    margin-left: 80pt;
+    padding-bottom: 20pt;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+    --cor-primaria: white;
+    --cor-secundaria: black;
+    --fonte-principal: 'Poppins', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--cor-primaria);
+}
+
+h1{
+    font-family: var(--fonte-principal);
+    color: var(--cor-secundaria);
+    font-size: 60pt;
+    padding: 10pt;
+}
+
+h2{
+    font-family: var(--fonte-principal);
+    color: var(--cor-secundaria);
+    font-size: 40pt;
+    padding: 2%;
+}
+
+h3{
+    font-family: var(--fonte-principal);
+    color: var(--cor-primaria);
+    font-size: 30pt;
+    padding: 2%;
+}
+
+h4{
+    font-family: var(--fonte-principal);
+    color: var(--cor-secundaria);
+    font-size: 30pt;
+    padding: 2%;
+}
+
+p{
+    font-family: var(--fonte-principal);
+    color: var(--cor-secundaria);
+    font-size: 20pt;
+    padding: 20px;
+}
+
+.cabecalho{
+    align-items: center;
+    background-color: var(--cor-secundaria);
+    padding-top: 10pt;
+    padding-bottom: 5pt;
+}
+
+.conteudo__cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-evenly;
+}
+
+.conteudo__cabecalho__links{
+    text-decoration: none;
+}
+
+.albuns__conteudo{
+    padding: 2%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px
+    
+}
+
+.albuns__musicas{
+    padding: 1%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.rodape{
+    text-decoration: none;
+    margin-left: 80pt;
+    padding-bottom: 20pt;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
